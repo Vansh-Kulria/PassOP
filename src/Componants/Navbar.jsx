@@ -38,7 +38,7 @@ const Navbar = () => {
 
                     </div>
                     <a
-                        href="#"
+                        href="https://github.com/Vansh-Kulria/PassOP"
                         className=""
                     >
                         GitHUB
