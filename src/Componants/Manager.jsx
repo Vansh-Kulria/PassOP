@@ -22,7 +22,6 @@ const Manager = () => {
         let passes = await reqestPass.json()
         if (passes) {
             setPasswords(passes);
-            console.log(passes);
         } else {
             setPasswords([]);
         }

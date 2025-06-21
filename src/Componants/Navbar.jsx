@@ -27,6 +27,10 @@ const Navbar = () => {
             <ul className="flex sm:gap-4 md:gap-8">
 
                 <li className="relative group">
+                        <a
+                            href="https://github.com/Vansh-Kulria/PassOP"
+                            target='_blank'
+                        >
                     <div className='flex items-center justify-center relative px-3 py-1 rounded-lg font-medium text-base transition-all duration-200 gap-2 hover:bg-gray-700/60 hover:text-green-300  text-gray-400 group'>
                     <div>
                     <lord-icon
@@ -37,14 +41,10 @@ const Navbar = () => {
                     </lord-icon>
 
                     </div>
-                    <a
-                        href="https://github.com/Vansh-Kulria/PassOP"
-                        target='_blank'
-                    >
                         GitHUB
                         <span className="absolute left-1/2 -translate-x-1/2 bottom-0 w-4/5 h-0.5 bg-gradient-to-r from-green-400 to-yellow-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full"></span>
-                    </a>
                     </div>
+                    </a>
                 </li>
             </ul>
         </nav>
