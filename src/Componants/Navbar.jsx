@@ -39,7 +39,7 @@ const Navbar = () => {
                     </div>
                     <a
                         href="https://github.com/Vansh-Kulria/PassOP"
-                        className=""
+                        target='_blank'
                     >
                         GitHUB
                         <span className="absolute left-1/2 -translate-x-1/2 bottom-0 w-4/5 h-0.5 bg-gradient-to-r from-green-400 to-yellow-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full"></span>
